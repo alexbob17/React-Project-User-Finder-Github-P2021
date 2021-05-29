@@ -1,9 +1,12 @@
-# Buscador de Usuarios de Github
+# React-Project-User-Finder-Github-P2021
+Proyecto React: Buscador de usuarios de GitHub donde se lista los 10 mas populares según su búsqueda.
+ ## Requisitos
 
-Este proyecto simula la funcionalidad de buscar de un usuario de github listando los 10 mas populares y sus repositorios. (v16.12.0)
+1. Instalar dependencias
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+```shell
+npm install .
+```
 ## Available Scripts
 
 In the project directory, you can run:

@@ -1,51 +1,51 @@
 # React-Project-User-Finder-Github-P2021
 Proyecto React: Buscador de usuarios de GitHub donde se lista los 10 mas populares según su búsqueda.
-  You can install nodejs and npm easily with apt install, just run the following commands.
+ ## Requisitos
 
-      $ sudo apt install nodejs
-      $ sudo apt install npm
+1. Instalar grunt y mocha
 
-- #### Other Operating Systems
-  You can find more information about the installation on the [official Node.js website](https://nodejs.org/) and the [official NPM website](https://npmjs.org/).
+```shell
+npm install -g grunt-cli mocha
+```
 
-If the installation was successful, you should be able to run the following command.
+2. Instalar dependencias
 
-    $ node --version
-    v8.11.3
+```shell
+npm install .
+```
 
-    $ npm --version
-    6.1.0
+3. Funciona en Heroku. Tras abrir la cuenta, push a cualquiera de ellos. Para ejecutar en local
 
-If you need to update `npm`, you can make it using `npm`! Cool right? After running the following command, just open again the command line and be happy.
+```shell
+npm start
+```
 
-    $ npm install npm -g
+O, si se tiene instalado el Toolbelt de Heroku
 
-###
-### Yarn installation
-  After installing node, this project will need yarn too, so just run the following command.
+```
+foreman start web
+```
 
-      $ npm install -g yarn
 
----
 
-## Install
 
-    $ git clone https://github.com/YOUR_USERNAME/PROJECT_TITLE
-    $ cd PROJECT_TITLE
-    $ yarn install
+## Developed from node-js-getting-started (original docs below)
 
-## Configure app
+A barebones Node.js app using [Express 4](http://expressjs.com/).
 
-Open `a/nice/path/to/a.file` then edit it with your settings. You will need:
+This application support the
+[Getting Started with Node on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs)
+article - check it out.  
 
-- A setting;
-- Another setting;
-- One more setting;
+## Running Locally
 
-## Running the project
+Make sure you have [Node.js](http://nodejs.org/) and the [Heroku Toolbelt](https://toolbelt.heroku.com/) installed.
 
-    $ yarn start
+```sh
+$ git clone git@github.com:heroku/node-js-getting-started.git # or clone your own fork
+$ cd node-js-getting-started
+$ npm install
+$ npm start
+```
 
-## Simple build for production
-
-    $ yarn build
+Your app should now be running on [localhost:5000](http://localhost:5000/).

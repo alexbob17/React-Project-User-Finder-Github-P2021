@@ -2,50 +2,44 @@
 Proyecto React: Buscador de usuarios de GitHub donde se lista los 10 mas populares según su búsqueda.
  ## Requisitos
 
-1. Instalar grunt y mocha
-
-```shell
-npm install -g grunt-cli mocha
-```
-
-2. Instalar dependencias
+1. Instalar dependencias
 
 ```shell
 npm install .
 ```
+## Available Scripts
 
-3. Funciona en Heroku. Tras abrir la cuenta, push a cualquiera de ellos. Para ejecutar en local
+In the project directory, you can run:
 
-```shell
-npm start
-```
+### `npm start`
 
-O, si se tiene instalado el Toolbelt de Heroku
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-```
-foreman start web
-```
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
+### `npm test`
 
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
+### `npm run build`
 
-## Developed from node-js-getting-started (original docs below)
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-A barebones Node.js app using [Express 4](http://expressjs.com/).
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
 
-This application support the
-[Getting Started with Node on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs)
-article - check it out.  
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## Running Locally
+### `npm run eject`
 
-Make sure you have [Node.js](http://nodejs.org/) and the [Heroku Toolbelt](https://toolbelt.heroku.com/) installed.
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-```sh
-$ git clone git@github.com:heroku/node-js-getting-started.git # or clone your own fork
-$ cd node-js-getting-started
-$ npm install
-$ npm start
-```
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Your app should now be running on [localhost:5000](http://localhost:5000/).
+Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.

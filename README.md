@@ -1,4 +1,4 @@
-# Buscador de usarios de Github
+# Buscador de Usuarios de Github
 
 Este proyecto simula la funcionalidad de buscador de un usuario de github listando los 10 mas populares y sus repositorios. (v16.12.0)
 
